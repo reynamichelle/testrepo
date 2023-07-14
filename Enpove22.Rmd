@@ -1,0 +1,17 @@
+---
+title: "Enpove22"
+author: "ReynaM"
+date: "2023-07-14"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+```
+
+```{r}
+a <- penguins %>% ggplot(aes(x=bill_depth_mm))+geom_histogram()
+a
+```
+
